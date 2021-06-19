@@ -1,0 +1,39 @@
+.error-bg {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+}
+
+.error-card {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    color: #000;
+    border-radius: 1rem;
+    min-width: 25rem;
+}
+
+.exitBtn {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: coral;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.exitBtn:hover {
+    background-color: rgb(255, 108, 55);
+}
